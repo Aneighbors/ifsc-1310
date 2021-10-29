@@ -19,7 +19,7 @@ img {
 
 /* Utility Classes */
 .container{
-  width:70W;
+  width:70vW;
   margin: 40px auto;
   max-width:960px;
 }
@@ -28,7 +28,7 @@ img {
   float:right;
   border: 1px solid #94E0C6;
   padding: 5px;
-  marging-left:20px;
+  margin-left:20px;
 }
 
 
@@ -36,7 +36,7 @@ img {
   float:left;
   border: 1px solid #94E0C6;
   padding: 5px;
-  marging-right:20px;
+  margin-right:20px;
 }
 
 .img-center {
@@ -48,6 +48,7 @@ padding: 5px;
 
 #additional-elements h3{
   border-left: 10px solid;
+  padding: 5px 10px;
 }
 
 #additional-elements ol{
@@ -72,7 +73,7 @@ padding: 5px;
 
 #additional-elements dt {
   font-weight: bold;
-  font-size: 1.2rem,
+  font-size: 1.2rem;
   margin-top: 20px;
 }
 
@@ -91,6 +92,9 @@ table{
 
 table caption{
   color:#94EOC6;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
   
 }
 
@@ -119,7 +123,7 @@ body {font-family: buckley, sans-serif;
 font-style: normal;
 font-weight: 400;
 margin:0;
-line height: 1.5;
+line-height: 1.5;
 } 
 header.primary{
     background:#45997B;
@@ -251,7 +255,7 @@ a:active {text-decoration: none;
 /* Attribute selectors */
   aside[role="complementary"]{
     background-color: #945344;
-    padding:2,2rem;
+    padding:2.2rem;
   }
   
   aside .container {
