@@ -26,6 +26,16 @@ background-color:#A6E0B7;
     padding: 40px 40px 40px 40px;
 
 }
+
+h2 {color: #E42B88;
+background-color:#A6E0B7;
+  text-align:center;
+    text-shadow:2px 2px #000000;
+    /* T,R,B,L */
+    padding: 40px 40px 40px 40px;
+
+}
+
 ul{
   text-decoration:none;
   padding:0;
