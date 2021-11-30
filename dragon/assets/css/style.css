@@ -5,18 +5,19 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}/* ---------------Responsive Images----------------- */
+}
+/* ---------------Responsive Images----------------- */
 img {
   max-width: 100%;
   height: auto;
 }
 
-
+div id="wufoo-z12rv7ba0ssoc12" { background-color:purple;}
 
 /* Utility Classes */
 .container{
   width:70vW;
-  margin: 40px auto;
+  margin: 40px auto; 
   max-width:960px;
 }
 
@@ -98,7 +99,11 @@ header.primary nav ul li a{
   border-radius:20px 10px;
   transition:.5s;
 }
-
+header.primary nav{
+  width:70VW;
+  margin:20px auto;
+  max-width:900px;}
+  
 header.primary nav a:hover,
 header.primary nav a:active {
 background-color: #88B5BF;
@@ -111,7 +116,7 @@ top: 0px;
 right: 0px;
 bottom: 0px;
 left: 0px;
-opacity: 0.4;
+opacity: 1;
   
 }
 
@@ -244,7 +249,9 @@ details{padding-bottom: 20px}
   header.primary nav ul li {
     margin-bottom: 10px;
   }
-  
-  
+
+  header.primary nav ul li a {
+    display: block;
+  }
 
 }
